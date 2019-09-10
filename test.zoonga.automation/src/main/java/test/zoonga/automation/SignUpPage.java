@@ -29,6 +29,8 @@ public class SignUpPage {
 	@FindBy(xpath = "//input[@name='password']")
 	public WebElement txtPassword;
 	
+
+	
 	public SignUpPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
