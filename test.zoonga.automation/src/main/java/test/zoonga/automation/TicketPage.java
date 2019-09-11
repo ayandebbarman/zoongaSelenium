@@ -12,7 +12,7 @@ public class TicketPage {
 	private WebDriver driver;
 	
 
-	@FindBy(xpath = "//button[text()='Buy Tickets']")
+	@FindBy(xpath = "//h4[text()='Windies Women v Australia Women, 2nd T20I']/../..//button[text()='Buy Tickets']")
 	public WebElement btnBuyTickets;
 	
 	@FindBy(xpath = "//text[text()='205']")
